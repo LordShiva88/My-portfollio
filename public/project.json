@@ -1,0 +1,122 @@
+[
+  {
+    "image": "https://i.ibb.co/ThgT8gZ/poll-survey.png",
+    "name": "Survey Sift",
+    "URL": "https://polling-survey-11c5d.web.app/",
+    "server_site": "https://github.com/LordShiva88/Polling_Survey_Server",
+    "client_site": "https://github.com/LordShiva88/Polling_Survey_Client",
+    "description": "Advanced Survey Sift application with integrated payment functionalities, robust user management, and a feature-rich admin dashboard. Crafted for survey creation, voting, result analysis, and seamless user interaction.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Tailwinds",
+      "React",
+      "JavaScript",
+      "Firebase",
+      "MongoDB",
+      "Express"
+    ],
+    "features": [
+      {
+        "title": "Homepage",
+        "description": "Displays featured and latest surveys with static testimonials."
+      },
+      {
+        "title": "Public Surveys Page",
+        "description": "Shows all surveys with filtering options by title, category, and vote."
+      },
+      {
+        "title": "Survey Details Page",
+        "description": "Provides detailed survey information and allows authorized users to vote, comment, like/dislike, and report."
+      },
+      {
+        "title": "Pricing Page",
+        "description": "Integrates a payment system for users to become pro users with role changes upon successful payment."
+      },
+      {
+        "title": "User Authentication",
+        "description": "Supports email/password and social media authentication, JWT tokens, and role-based access control."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dWSDdLP/freelance.png",
+    "name": "FreelanceBD",
+    "URL": "https://freelance-bd.web.app/",
+    "server_site": "https://github.com/LordShiva88/Freelance-marketplace-react-server",
+    "client_site": "https://github.com/LordShiva88/Freelance-marketplace-react-client",
+    "description": "Full-stack web application designed for an interactive online marketplace experience. Facilitates the connection between job seekers and employers, streamlining the job search and hiring process.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Tailwinds",
+      "React",
+      "JavaScript",
+      "Firebase",
+      "MongoDB",
+      "Express"
+    ],
+    "features": [
+      {
+        "title": "User Authentication",
+        "description": "Users can securely create accounts and log in for a personalized experience."
+      },
+      {
+        "title": "Intuitive Job Posting",
+        "description": "Employers can easily post job opportunities with detailed information."
+      },
+      {
+        "title": "Bidding System",
+        "description": "Job seekers can place bids on available jobs, specifying their bidding amount and deadline."
+      },
+      {
+        "title": "Bid Management",
+        "description": "Users can view and manage their bid requests, track status, and accept or reject bids."
+      },
+      {
+        "title": "Responsive Design",
+        "description": "Designed to be responsive for a seamless user experience across devices."
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/r3X8Qqv/brand-1.png",
+    "name": "Brand Shop",
+    "server_site": "https://github.com/LordShiva88/brand-shop-server-react",
+    "client_site": "https://github.com/LordShiva88/brand-shop-client-react",
+    "URL": "https://brand-shop-68273.web.app/",
+    "description": "Your go-to destination for a seamless and secure online shopping experience. Offers a range of features prioritizing user convenience, product management, and data security.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Tailwinds",
+      "React",
+      "JavaScript",
+      "Firebase",
+      "MongoDB",
+      "Express"
+    ],
+    "features": [
+      {
+        "title": "User Authentication",
+        "description": "Enables secure account creation and login with strong password validation."
+      },
+      {
+        "title": "Product Management",
+        "description": "Facilitates admin product upload, updates, and comprehensive catalog management."
+      },
+      {
+        "title": "Shopping Cart Functionality",
+        "description": "Provides a user-friendly cart with convenient item removal and persistent storage."
+      },
+      {
+        "title": "MongoDB Integration",
+        "description": "Efficiently manages product and user data using MongoDB for reliability."
+      },
+      {
+        "title": "User-Friendly Interface",
+        "description": "Features an intuitive design and easy navigation for an enhanced user experience."
+      }
+    ]
+  }
+]

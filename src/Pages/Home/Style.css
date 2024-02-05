@@ -1,0 +1,109 @@
+.bg-img {
+  --s: 10px; 
+  border: calc(2*var(--s)) solid #e6bf0f00;
+  outline: 1px solid #f80000;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#f7f7f700 25%,#fcfcfc 0);
+}
+
+.btnCv {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+}
+
+.btnCv:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.btnCv::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2c9caf;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.btnCv:hover::before {
+  width: 250%;
+}
+
+
+
+.background-container {
+  width: 100%;
+  height: 100%;
+}
+.background-animation {
+  width: 100%;
+  height: 100%;
+  background: none;
+  background-image: url(""), url(""), url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAABBVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////85QWmiAAAAV3RSTlMAAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUnKCkqKywtMDEyMzQ2ODk7PD0/QEFCQ0RFRkdJS01OUFJVVldYWVtcXV9hYmpscXwejIx6AAADsUlEQVR4XuzZiVKbVRjHYXnP+ZYESNISKMRggS4spbaIC7agrcWtLq3r/V+KF+A486rTjLHP7xKeOfmfM1/e+ftpZTFFqbGynC0eq93eGwasXDe/+nW/wMo1+vSbWcDKVccbnc16I8GCBUuwYMGCBQuWoun7msNS3Tw9npQUlrqTVy/3mhSW6vTkcJw+WTare6s2y20ICxasaPsKK1l3+2yjwMo1fvH7wxZWrv7wcqfCylX69SZg/T+DBQsWLFiCBQsWLFiwBAsWLFiwYAkWrKiDvsLKVacPH9wosFK1Rz9+d7eFlapuHB1NnKxcUfvOZv1VbkNYsKId9sk9hdUenN3tcwCw1p/8fDVKAjhZ8+PdLgcAK5quiTcM4DaEBUuwSpMdW1hltDsfBqxUze2ri1sVVqrmvacfb8HKVdZm24OAlStqfWsG3tMBFizBggULFixYggULFixYsAQLFixYsGAJFixYsGDBEixYsGDBgiVYsGDBggVLsKJfGwSsXP2983s9rFyrZ9cfrC4rVmmaWCRWt//ooFtSrDI+2FtbpFZ0g25ZN6vZ++zJTnUbpmrmFx9twcoVw63NPmDlilpiBZYXPCzBggULFixYggULFqxSC6xcZTibjwusTDE8ur6+38LKVLa//O31cQMrU4xOL8+mAStVGYyG1cAvY7BgwYIFS7BgwYIFC5ZgwYIFCxYswYJVmhKwcpXJ/qTCytWfvDzqYeXqT1+dwEpWp8fTCitZ6Qz8vwoWLFiwYMGCBQsWLFjRDvuSA4BVZ49ORjktWP37r79+t6YAYNWto7urkQKAFbVrE1awUsESLFiwYMGCJViwYMGCBUuwYMGCBQuWom1LEkv93uFa5LA0vvp2p+SwNLq4vpXEUrs1H0QOS1GbMPCeDrBgwYIlWLBgwYIF67/1HS4XrMHBnQGsZBsvrqewkt18/sUGrGTdfLeHlSyaJmC9oWDBggULlmDBggULFizBggULFixYggULFixYsAQrVb05HwasXOtPf7nfJrFgffLTnWbhWKWpsYRYdbzdx6Kx6nR/pzPwufqT5+ejgJWqO7w6W4eVq4xn08bPMFmpNWD902DBEixYsGDBgiVYsGDBggUrViJyALCimc5v1BwArPHlDx8OcwCw1h4/e9DnAGxWWZ38+S9suQ1hwYIFC5ZgwYIFCxYswYIFC1ZdmwwCVqoYnT877GClKhuff/94ACtVtJuzcYGVLEqsLF1/tAPHBAAAAAiD7J/aGjtgAQAAcExSazJsIKj4AAAAAElFTkSuQmCC");
+  -webkit-animation: snowy 9s linear infinite;
+  -moz-animation: snowy 9s linear infinite;
+  -o-animation: snowy 9s linear infinite;
+  -ms-animation: snowy 9s linear infinite;
+  animation: snowy 9s linear infinite;
+}
+@-moz-keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}
+@-webkit-keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}
+@-o-keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}
+@keyframes snowy {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  75% {
+    background-position: 325px 750px, 275px 600px, -5px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 0px 300px;
+  }
+}

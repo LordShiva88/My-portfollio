@@ -1,0 +1,59 @@
+.button {
+  background: none;
+  border: none;
+}
+.button .bloom-container {
+  position: relative;
+  transition: all 0.8s ease-in-out;
+  border: none;
+  background: none;
+}
+.button .bloom-container .button-container-main {
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  place-content: center;
+  border-right: 5px solid white;
+  box-shadow: 0px 0px 30px 1px rgba(238, 255, 0, 0.2);
+  border-left: 5px solid rgba(128, 128, 128, 0.147);
+  transition: all 0.5s ease-in-out;
+}
+.button .bloom-container .button-container-main .button-inner {
+  height: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.5) -10px 5px 10px 0px;
+  transition: all 0.5s ease-in-out;
+}
+.button .bloom-container .button-container-main .button-inner .back {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(60deg, rgb(1, 85, 103) 0%, rgb(147, 245, 255) 100%);
+}
+.button .bloom-container .button-container-main .button-inner .front {
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  background: linear-gradient(60deg, rgb(0, 103, 140) 0%, rgb(58, 209, 233) 100%);
+  display: grid;
+  place-content: center;
+}
+.button .bloom-container .button-container-main .button-glass {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.888) 100%);
+  transform: translate(0%, -50%) rotate(0deg);
+  transform-origin: bottom center;
+  transition: all 0.5s ease-in-out;
+}
+.button .bloom-container:hover {
+  transform: scale(1.1);
+}
+.button .bloom-container:hover .button-container-main .button-glass {
+  transform: translate(0%, -100%);
+}
